@@ -113,6 +113,6 @@ LSA держу со скромными ожиданиями: латентная 
 
 ## Стек
 
-Python, pandas, numpy, matplotlib, BeautifulSoup, lxml, pymorphy3, rank_bm25, scikit-learn. Опционально: sentence-transformers + torch для нейро-эмбеддингов, lightgbm для ранжирующего реранкера.
+Python, pandas, numpy, BeautifulSoup, lxml, pymorphy3, rank_bm25, scikit-learn. Опционально: matplotlib для графиков, sentence-transformers + torch для нейро-эмбеддингов, lightgbm для ранжирующего реранкера.
 
 Внешние LLM и платные API не используются нигде, включая инференс на тестовой части. Все модели и словари работают локально.
